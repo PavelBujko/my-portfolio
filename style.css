@@ -1,0 +1,44 @@
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+img{
+    width: 200px;
+}
+
+.right-part{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    background-color: white;
+}
+
+.Trafalgar{
+    width: 30px;
+    margin-right: 15px;
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.block a{
+    text-decoration: none;
+    color: #458FF6;
+}
+
+.blant{
+    width: 45px;
+}
