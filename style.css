@@ -250,3 +250,59 @@ h3{
     border: 1px solid #458FF6;
     background-color: #458FF6;
 }
+
+@media(max-width: 932px){
+    .container{
+        width: 80%;
+    }
+
+    .block{
+        font-size: 22px;
+    }
+
+    .right-part a{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 568px){
+    .row{
+        flex-direction: column;
+    }
+
+    .photo{
+        height: 244px;
+        text-align: center;
+        width: 88%%;
+        box-sizing: inherit;
+        background-color: #255aa5;
+    }
+
+    .right-part{
+        margin-top: 30px;
+    }
+
+    .chooses{
+        height: 110%;
+
+    }
+
+    .block{
+     width: 100%;   
+     height: 50px;
+     margin-bottom: 5px;
+    }
+
+    .block:last-child{
+        margin-bottom: 0px;
+    }
+
+    .navigation a{
+        font-size: 15px;
+    }
+
+    .row{
+        margin-top: 20px;
+    }
+
+}
