@@ -97,10 +97,11 @@ h1{
 
 .right-part a{
     text-decoration: none;
+    border-left: #255aa5 5px solid;
 }
 
 h2{
-    margin-top: 50px;
+    margin: 50px 0 15px;
     color: #255aa5;
 }
 
@@ -111,9 +112,11 @@ h3{
     text-transform: uppercase;
 }
 
-h5{
+.logo{
     color: white;
     font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 .chooses{
@@ -154,15 +157,96 @@ h5{
 
 .mail::before{
     content: url(email.png);
-    padding-right: 8px;
+    padding: 0 8px;
 }
 
 .tel::before{
     content: url(smartphone.png);
-    padding-right: 8px;
+    padding: 0 8px;
 }
 
 .inst::before{
     content: url(instagram.png);
-    padding-right: 8px;
+    padding: 0 8px;
+}
+
+.port{
+    font-size: 20px;
+}
+
+.box{
+    width: 30%;
+    height: 250px;
+    background-color: #255aa5;
+}
+
+.boxes{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tabs{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+
+
+
+.tabs button{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 16px;
+    transition: 0.3s;
+    color: white;
+}
+
+
+.tabs button:hover{
+    background-color: #458FF6;
+}
+
+.tabs button.active{
+    background-color: #458FF6;
+}
+
+
+
+
+.tabcontent{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+
+.tabcontent.active{
+    display: block;
+}
+
+.open{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 8px 30px;
+    margin-top: 15px;
+    border: 1px solid #255aa5;
+    background-color: #255aa5;
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;    
+    display: inline-block;
+}
+
+.open:hover{
+    transition: 0.3s;
+    border: 1px solid #458FF6;
+    background-color: #458FF6;
 }
