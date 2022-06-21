@@ -273,13 +273,13 @@ h3{
     .photo{
         height: 244px;
         text-align: center;
-        width: 88%%;
+        width: 100%;
         box-sizing: inherit;
         background-color: #255aa5;
     }
 
     .right-part{
-        margin-top: 30px;
+        margin: 30px 0;
     }
 
     .chooses{
